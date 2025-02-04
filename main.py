@@ -24,7 +24,7 @@ from database.firestore import MLBLiveFeedSummaryCollection
 
 
 st.set_page_config(
-    page_title="PlayBook Live",
+    page_title="MLB Insights Hub",
     page_icon=":material/sports_baseball:",
     initial_sidebar_state="expanded",
     layout="wide",
@@ -423,7 +423,7 @@ if __name__ == '__main__':
             selected_menu_item = sac.menu(
                 [
                     sac.MenuItem(
-                        t("PlayBook Live Dashboard"),
+                        t("MLB Insights Hub"),
                         icon="grid",
                     ),
                     sac.MenuItem(" ", disabled=True),
@@ -432,7 +432,7 @@ if __name__ == '__main__':
                 open_all=True,
             )
 
-        if selected_menu_item == t("PlayBook Live Dashboard"):
+        if selected_menu_item == t("MLB Insights Hub"):
             with st.sidebar:
                 if not st.session_state.display_play_data_interface:
                     with st.container(height=350, border=False):
@@ -1024,7 +1024,7 @@ if __name__ == '__main__':
         _, cola, _ = st.columns([1, 2, 1])
 
         with cola:
-            st.markdown("<BR><center><H2> Welcome to PlayBook Live</H2></center>", unsafe_allow_html=True)
+            st.markdown("<BR><center><H2> Welcome to MLB Insights Hub</H2></center>", unsafe_allow_html=True)
 
             with st.form(key='_form_login'):
                 email = st.text_input('EMail/Username', placeholder='Username', label_visibility='collapsed')
@@ -1039,7 +1039,7 @@ if __name__ == '__main__':
                 _, colx, _ = st.columns([1, 2, 1])
 
                 with colx:
-                    button_login = st.form_submit_button("LogIn to PlayBook Live", use_container_width=True)
+                    button_login = st.form_submit_button("LogIn to MLB Insights Hub", use_container_width=True)
                         
                 if button_login:
                     try:
