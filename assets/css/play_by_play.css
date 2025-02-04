@@ -1,0 +1,114 @@
+.h5-profile-snapshot {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.h6-profile-snapshot-metric {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.p-profile-snapshot-metric {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.hr-profile-snapshot {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.h2-ticket-details-appliance-title{
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.p-ticket-details-ribbon-title{
+    margin-bottom: 0.2rem !important;
+}
+
+.h4-ticket-details-ribbon-title{
+    padding-top: 0.1rem !important;
+    padding-bottom: 1.75rem !important;
+}
+
+.h5-ticket-details-status {
+    padding-top: 0.55rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.p-ticket-details-appliance-history-status {
+    margin-top: 0.63rem !important;
+    margin-bottom: 0.35rem !important;
+}
+
+
+.p-service-request-request-id-serial-number {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.85rem !important;
+}
+
+.p-service-request-status {
+    margin-top: 0.95rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.p-profile-snapshot-recent-requests {
+    margin-top: 0.4rem !important;
+    margin-bottom: 1.1rem !important;
+}
+
+
+.div-truncate-heading {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: box;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.div-truncate-text {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: box;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.h5-base {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.h4-base {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.h3-base {
+    padding-top: 0rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.p-play-analysis-dialog-outcome{
+    margin-top: 0rem !important;
+    margin-bottom: 0.9rem !important;
+}
